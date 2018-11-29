@@ -1,0 +1,46 @@
+{
+  "manifest_version": 2,
+  "name": "Inputter",
+  "version": "1.0",
+  "description": "Inputter is a lightweight extension, that let's you easily focus the first input field of a website.",
+
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "64": "icons/64.png",
+    "128": "icons/128.png",
+    "256": "icons/256.png",
+    "512": "icons/512.png",
+    "1024": "icons/1024.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["focus.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "focus": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L"
+      },
+      "description": "Focus first element"
+    },
+    "focus3": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+M"
+      },
+      "description": "Focus first element"
+    },
+    "focus2": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U"
+      },
+      "description": "Focus first element"
+    }
+  }
+}
