@@ -1,3 +1,5 @@
+![Inputter Logo](https://raw.githubusercontent.com/der-Daniel/Inputter-Firefox/master/icons/128.png)
+
 # Inputter-Firefox
 
 #### Download here: https://addons.mozilla.org/en-US/firefox/addon/inputter/
